@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bitd-operator
-          image: REPLACE_IMAGE
+          image: docker.io/dymurray/bitd-operator
           ports:
           - containerPort: 60000
             name: metrics
